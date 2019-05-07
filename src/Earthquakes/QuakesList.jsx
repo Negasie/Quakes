@@ -9,7 +9,7 @@ const QuakesList = (props) => {
 			<div key ={i}>
 
 			<ul>
-			<li >Location: {info.features}</li>
+			<li >Location: {props.info}</li>
 			</ul>
 			</div>
 		)
